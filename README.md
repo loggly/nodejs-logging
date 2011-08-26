@@ -10,3 +10,9 @@ Logging kind of sucks.
 * Support profiling (random sampling of requests) 
 * Should be tunable at runtime 
 
+Sample output
+
+    {"timestamp":"2011-08-26T06:49:06.872Z","message":"l1"}
+    {"timestamp":"2011-08-26T06:49:06.874Z","message":"l2","foo":"bar"}
+    {"timestamp":"2011-08-26T06:49:06.875Z","message":"l3","bar":"baz","foo":"bar"}
+
